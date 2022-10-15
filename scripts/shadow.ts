@@ -109,7 +109,7 @@ export async function genConcretePackage(
     const targetDepsOfTypeWithVersion = targetDepsOfType
       ? Object.fromEntries(
           Object.entries(targetDepsOfType).map(([k, v]) => {
-            if (!k.startsWith("@lemmy/")) {
+            if (!k.startsWith("@abc/")) {
               throw new Error(
                 `Concrete "${depType}" [${k}] declared for [${ws}] project which is not part of this workspace!`
               );
