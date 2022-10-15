@@ -29,7 +29,8 @@ There are definitely tradeoffs to solving the "potential for incompatible
 dependencies" problem in this way, but these tradeoffs are the ones that I've
 found make the most sense for my own projects.
 
-> This repository exists as a supporting demo for my blog post on the topic of
-> managing dependencies in monorepos. In the blog post, you will find a more
-> thorough discussion of the issue as well as discussion of the tradeoffs
-> involved with solving the issue in this way.
+> This repository exists as a supporting demo for my blog post
+> "[Your Monorepo Dependencies Are Asking for Trouble](https://blog.andrewbrey.com/2022-10-12-your-monorepo-dependencies-are-asking-for-trouble/)"
+> on the topic of managing dependencies in monorepos. In the blog post, you will
+> find a more thorough discussion of the issue as well as discussion of the
+> tradeoffs involved with solving the issue in this way.
